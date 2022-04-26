@@ -1,0 +1,183 @@
+/*codigo para fondo, img y/o color*/
+body{
+
+	background: linear-gradient(to bottom right, #812EFF,#FF64F3  );
+}
+/*codigo formato de texto*/
+h1{
+	font-size: 25px;
+	font-style: Times New Roman;
+	color: #FFFFFF ;
+	text-align: center ;
+}
+/*codigo formato de inf del creador*/
+p{ 
+font-size: 10px;
+	font-style: Times New Roman;
+	color: #FFFFFF ;
+	text-align: center;
+}
+/*codigo para formato de tabla*/
+table{ 
+
+ text-align : center;
+ border: 2; 
+ width: 90%;
+ position: center;
+}
+/*formato de recuadros de tabla*/
+td{
+ text-align: center ; 
+ background-color:#E8DAEF ;
+ 
+}
+/*formato color de tabla*/
+th {
+background-color: white ;
+}
+.imagen{
+width: 250;
+height:300;
+}
+/*formato de tabla de botones de direccion*/
+.sin{
+border-style: transparent;
+border:0;
+background-color: transparent ;
+}
+/*codigo para tabla individual de contacto*/
+.con{
+ border: 2;
+ border-color: black;
+ width: 30%;
+ height: 20%;
+
+}
+/*codigo para imagen productos y href*/
+.siu{
+width:250px;
+height:200px;
+}
+/*imagen logo*/
+.sipa{
+width:170; 
+height:90;
+}
+.letra{
+	font-size: 19px;
+	font-style: Times New Roman;
+	color: #F4EBF4  ;
+	text-align: center;
+}
+
+.div1{
+border: 0px ;
+background: linear-gradient(to bottom right, #812EFF,#FF64F3, #812EFF  );
+border:0px groove #E4D8F7 ;
+border-radius: 0;
+margin:auto;
+
+}
+.div2{
+border: 0px solid #060505;
+background: linear-gradient(to bottom right, #060505, #540F51);
+border-radius: 0px;
+margin:center;
+}
+.div3{
+border: 0px solid black;
+background: linear-gradient(to bottom right, #060505, #540F51);
+
+border-radius: 2px;
+text-align: center;
+
+}
+}
+
+.div4{
+border:;
+background: linear-gradient(to bottom right, #812EFF,#FF64F3  );
+
+border-radius: 10px;
+margin:auto;
+}
+
+.caja{ 
+        height: 400px;
+        width: 300px;
+        border: 1px solid #CEFF33;
+        background:#D4CFD2 ;
+        margin: 20px;
+        color: green;
+        text-align: center;
+        font-family: "lato",  sans-serif;
+		display: inline-block ;
+}
+.caja:hover{
+                /*colocar sombra div*/
+/*                  x y radio color*/
+        box-shadow: 0 0 20px red;
+        /*cambiar el tamaño de la escala del div*/
+        transform: scale(1.2);
+}
+.caja-texto{
+        padding-bottom: 5px;
+        padding-top:2px;
+        font-size: 30px;
+        color: black;
+        font-weight:bold;
+}
+.texto-adicional{
+        padding-top:5px;
+        font-size: 25px;
+}
+
+@font-face{
+     font-family:"fuente";
+     src: url(varsity_regular.ttf);
+}
+#fuente-Varcity{
+      font-family:"fuente";     
+}      
+
+#fuente-google{
+font-family: 'Bebas Neue', cursive;
+}
+.navegacion{
+display: flex ;
+height: 100px;
+}
+
+.navegacion-item{
+    flex: 1;
+    color:pink;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    transition: flex-grow 0.2s;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion-item:hover{
+    flex-grow: 10;
+}
+.navegacion-item:hover .navegacion-titulo{
+    transform: rotate(0);
+}
+.navegacion-item:nth-child(1){
+    background:#B87DAB ;
+}
+.navegacion-item:nth-child(2){
+    background:pink;
+}
+.navegacion-item:nth-child(3){
+    background:#B87DAB ;
+}
+.navegacion-item:nth-child(4){
+    background:pink;
+}
+.navegacion-titulo{
+    margin: 0;
+    transform: rotate(-90deg);
+    transition: transform 0.2s 0.2s
+}
